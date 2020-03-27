@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="44" failures="4" name="TestSuite" time="985.888" errors="0" skipped="40">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="FreeCRMTestJob"/>
+    <property name="MSMPI_LIB64" value="C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x64\"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\n\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="86bc6cedcb0d37a3"/>
+    <property name="POM_ARTIFACTID" value="FreeCRMTest"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="FreeCRMTest"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\n\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.name" value="n"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="FreeCRMTestJob"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/9/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#9"/>
+    <property name="OneDrive" value="C:\Users\n\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\n\AppData\Local"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="n"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="OneDriveConsumer" value="C:\Users\n\OneDrive"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="9"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\n\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="=ExitCode" value="00000001"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/9/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\n\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMTestJob/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="MSMPI_LIB32" value="C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x86\"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="SWAPNIL"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_191"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\n"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="asl.log" value="Destination=file"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="SWAPNIL"/>
+    <property name="POM_GROUPID" value="FreeCRMTestAutomation"/>
+    <property name="user.home" value="C:\Users\n"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCRMTestJob-9"/>
+    <property name="JENKINS_SERVER_COOKIE" value="86bc6cedcb0d37a3"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\n"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\n\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven/bin;C:\Program Files\Java\jdk1.8.0_191/bin;C:\Program Files\Java\jdk1.8.0_191/bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_191\bin;D:\software\150\DTS\Binn\;D:\software\SQL server\Client SDK\ODBC\130\Tools\Binn\;D:\software\140\Tools\Binn\;D:\software\SQL server\140\Tools\Binn\;D:\software\SQL server\140\DTS\Binn\;D:\software\140\DTS\Binn\;C:\Program Files (x86)\apache-maven-3.6.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;D:\Selenium\Appium\Android-sdk\platform-tools;C:\Users\n\AppData\Local\Microsoft\WindowsApps;C:\Users\n\AppData\Roaming\npm;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\n\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\n\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven"/>
+    <property name="java.class.path" value="C:\Users\n\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\n\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven\boot\plexus-classworlds-2.6.0.jar;C:\Users\n\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\n\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven C:\Users\n\.jenkins\war\WEB-INF\lib\remoting-3.33.jar C:\Users\n\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\n\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 50315"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_191/bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_191\bin;D:\software\150\DTS\Binn\;D:\software\SQL server\Client SDK\ODBC\130\Tools\Binn\;D:\software\140\Tools\Binn\;D:\software\SQL server\140\Tools\Binn\;D:\software\SQL server\140\DTS\Binn\;D:\software\140\DTS\Binn\;C:\Program Files (x86)\apache-maven-3.6.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;D:\Selenium\Appium\Android-sdk\platform-tools;C:\Users\n\AppData\Local\Microsoft\WindowsApps;C:\Users\n\AppData\Roaming\npm;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_191/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 78 Stepping 3, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\n\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven"/>
+    <property name="java.io.tmpdir" value="C:\Users\n\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\n\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\n\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/FreeCRMTestJob/9/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\n\eclipse-workspace\WebDriverPracticeByNaveen\FreeCRMTest"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/FreeCRMTestJob/"/>
+    <property name="LOGONSERVER" value="\\SWAPNIL"/>
+    <property name="USERDOMAIN" value="SWAPNIL"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Users\n\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="9"/>
+    <property name="ANDROID_HOME" value="D:\Selenium\Appium\Android-sdk"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="4e03"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="=C:" value="C:\Users\n\.jenkins"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\n\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE" value="C:\Users\n\.jenkins\workspace\FreeCRMTestJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\n\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;D:\software\140\Tools\PowerShell\Modules\"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="MSMPI_BENCHMARKS" value="C:\Program Files\Microsoft MPI\Benchmarks\"/>
+    <property name="MSMPI_BIN" value="C:\Program Files\Microsoft MPI\Bin\"/>
+    <property name="MSMPI_INC" value="C:\Program Files (x86)\Microsoft SDKs\MPI\Include\"/>
+  </properties>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="setUp" time="10.344">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SWAPNIL&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0077A923+1550627]
+	Ordinal0 [0x006FA731+1025841]
+	Ordinal0 [0x0067C715+509717]
+	Ordinal0 [0x0060FC68+64616]
+	Ordinal0 [0x0060C594+50580]
+	Ordinal0 [0x0062ACE7+175335]
+	Ordinal0 [0x0062A8ED+174317]
+	Ordinal0 [0x00628CDB+167131]
+	Ordinal0 [0x0061144A+70730]
+	Ordinal0 [0x006124D0+74960]
+	Ordinal0 [0x00612469+74857]
+	Ordinal0 [0x007142F7+1131255]
+	GetHandleVerifier [0x0081711D+523789]
+	GetHandleVerifier [0x00816EB0+523168]
+	GetHandleVerifier [0x0081E207+552695]
+	GetHandleVerifier [0x0081791A+525834]
+	Ordinal0 [0x0070B82C+1095724]
+	Ordinal0 [0x0071636B+1139563]
+	Ordinal0 [0x007164D3+1139923]
+	Ordinal0 [0x00715455+1135701]
+	BaseThreadInitThunk [0x76576359+25]
+	RtlGetAppContainerNamedObjectPath [0x76F17B74+228]
+	RtlGetAppContainerNamedObjectPath [0x76F17B44+180]
+" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SWAPNIL&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0077A923+1550627]
+	Ordinal0 [0x006FA731+1025841]
+	Ordinal0 [0x0067C715+509717]
+	Ordinal0 [0x0060FC68+64616]
+	Ordinal0 [0x0060C594+50580]
+	Ordinal0 [0x0062ACE7+175335]
+	Ordinal0 [0x0062A8ED+174317]
+	Ordinal0 [0x00628CDB+167131]
+	Ordinal0 [0x0061144A+70730]
+	Ordinal0 [0x006124D0+74960]
+	Ordinal0 [0x00612469+74857]
+	Ordinal0 [0x007142F7+1131255]
+	GetHandleVerifier [0x0081711D+523789]
+	GetHandleVerifier [0x00816EB0+523168]
+	GetHandleVerifier [0x0081E207+552695]
+	GetHandleVerifier [0x0081791A+525834]
+	Ordinal0 [0x0070B82C+1095724]
+	Ordinal0 [0x0071636B+1139563]
+	Ordinal0 [0x007164D3+1139923]
+	Ordinal0 [0x00715455+1135701]
+	BaseThreadInitThunk [0x76576359+25]
+	RtlGetAppContainerNamedObjectPath [0x76F17B74+228]
+	RtlGetAppContainerNamedObjectPath [0x76F17B44+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:57)
+	at com.crm.qa.testcases.ContactPageTest.setUp(ContactPageTest.java:29)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@77468bd9
+</system-out>
+    <system-err>Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 9074
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="verifyContactsLabelTest" time="10.346">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="setUp" time="14.889">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SWAPNIL&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0077A923+1550627]
+	Ordinal0 [0x006FA731+1025841]
+	Ordinal0 [0x0067C715+509717]
+	Ordinal0 [0x0060FC68+64616]
+	Ordinal0 [0x0060C594+50580]
+	Ordinal0 [0x0062ACE7+175335]
+	Ordinal0 [0x0062A8ED+174317]
+	Ordinal0 [0x00628CDB+167131]
+	Ordinal0 [0x0061144A+70730]
+	Ordinal0 [0x006124D0+74960]
+	Ordinal0 [0x00612469+74857]
+	Ordinal0 [0x007142F7+1131255]
+	GetHandleVerifier [0x0081711D+523789]
+	GetHandleVerifier [0x00816EB0+523168]
+	GetHandleVerifier [0x0081E207+552695]
+	GetHandleVerifier [0x0081791A+525834]
+	Ordinal0 [0x0070B82C+1095724]
+	Ordinal0 [0x0071636B+1139563]
+	Ordinal0 [0x007164D3+1139923]
+	Ordinal0 [0x00715455+1135701]
+	BaseThreadInitThunk [0x76576359+25]
+	RtlGetAppContainerNamedObjectPath [0x76F17B74+228]
+	RtlGetAppContainerNamedObjectPath [0x76F17B44+180]
+" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SWAPNIL&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0077A923+1550627]
+	Ordinal0 [0x006FA731+1025841]
+	Ordinal0 [0x0067C715+509717]
+	Ordinal0 [0x0060FC68+64616]
+	Ordinal0 [0x0060C594+50580]
+	Ordinal0 [0x0062ACE7+175335]
+	Ordinal0 [0x0062A8ED+174317]
+	Ordinal0 [0x00628CDB+167131]
+	Ordinal0 [0x0061144A+70730]
+	Ordinal0 [0x006124D0+74960]
+	Ordinal0 [0x00612469+74857]
+	Ordinal0 [0x007142F7+1131255]
+	GetHandleVerifier [0x0081711D+523789]
+	GetHandleVerifier [0x00816EB0+523168]
+	GetHandleVerifier [0x0081E207+552695]
+	GetHandleVerifier [0x0081791A+525834]
+	Ordinal0 [0x0070B82C+1095724]
+	Ordinal0 [0x0071636B+1139563]
+	Ordinal0 [0x007164D3+1139923]
+	Ordinal0 [0x00715455+1135701]
+	BaseThreadInitThunk [0x76576359+25]
+	RtlGetAppContainerNamedObjectPath [0x76F17B74+228]
+	RtlGetAppContainerNamedObjectPath [0x76F17B44+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:57)
+	at com.crm.qa.testcases.HomePageTest.setUp(HomePageTest.java:28)
+</failure>
+    <system-err>Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 26789
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyHomePageTitleTest" time="14.889">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="setUp" time="18.432">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SWAPNIL&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0077A923+1550627]
+	Ordinal0 [0x006FA731+1025841]
+	Ordinal0 [0x0067C715+509717]
+	Ordinal0 [0x0060FC68+64616]
+	Ordinal0 [0x0060C594+50580]
+	Ordinal0 [0x0062ACE7+175335]
+	Ordinal0 [0x0062A8ED+174317]
+	Ordinal0 [0x00628CDB+167131]
+	Ordinal0 [0x0061144A+70730]
+	Ordinal0 [0x006124D0+74960]
+	Ordinal0 [0x00612469+74857]
+	Ordinal0 [0x007142F7+1131255]
+	GetHandleVerifier [0x0081711D+523789]
+	GetHandleVerifier [0x00816EB0+523168]
+	GetHandleVerifier [0x0081E207+552695]
+	GetHandleVerifier [0x0081791A+525834]
+	Ordinal0 [0x0070B82C+1095724]
+	Ordinal0 [0x0071636B+1139563]
+	Ordinal0 [0x007164D3+1139923]
+	Ordinal0 [0x00715455+1135701]
+	BaseThreadInitThunk [0x76576359+25]
+	RtlGetAppContainerNamedObjectPath [0x76F17B74+228]
+	RtlGetAppContainerNamedObjectPath [0x76F17B44+180]
+" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SWAPNIL&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0077A923+1550627]
+	Ordinal0 [0x006FA731+1025841]
+	Ordinal0 [0x0067C715+509717]
+	Ordinal0 [0x0060FC68+64616]
+	Ordinal0 [0x0060C594+50580]
+	Ordinal0 [0x0062ACE7+175335]
+	Ordinal0 [0x0062A8ED+174317]
+	Ordinal0 [0x00628CDB+167131]
+	Ordinal0 [0x0061144A+70730]
+	Ordinal0 [0x006124D0+74960]
+	Ordinal0 [0x00612469+74857]
+	Ordinal0 [0x007142F7+1131255]
+	GetHandleVerifier [0x0081711D+523789]
+	GetHandleVerifier [0x00816EB0+523168]
+	GetHandleVerifier [0x0081E207+552695]
+	GetHandleVerifier [0x0081791A+525834]
+	Ordinal0 [0x0070B82C+1095724]
+	Ordinal0 [0x0071636B+1139563]
+	Ordinal0 [0x007164D3+1139923]
+	Ordinal0 [0x00715455+1135701]
+	BaseThreadInitThunk [0x76576359+25]
+	RtlGetAppContainerNamedObjectPath [0x76F17B74+228]
+	RtlGetAppContainerNamedObjectPath [0x76F17B44+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:57)
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:23)
+</failure>
+    <system-err>Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 45750
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginPageTitleTest" time="18.433">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="setUp" time="21.68">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SWAPNIL&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0077A923+1550627]
+	Ordinal0 [0x006FA731+1025841]
+	Ordinal0 [0x0067C715+509717]
+	Ordinal0 [0x0060FC68+64616]
+	Ordinal0 [0x0060C594+50580]
+	Ordinal0 [0x0062ACE7+175335]
+	Ordinal0 [0x0062A8ED+174317]
+	Ordinal0 [0x00628CDB+167131]
+	Ordinal0 [0x0061144A+70730]
+	Ordinal0 [0x006124D0+74960]
+	Ordinal0 [0x00612469+74857]
+	Ordinal0 [0x007142F7+1131255]
+	GetHandleVerifier [0x0081711D+523789]
+	GetHandleVerifier [0x00816EB0+523168]
+	GetHandleVerifier [0x0081E207+552695]
+	GetHandleVerifier [0x0081791A+525834]
+	Ordinal0 [0x0070B82C+1095724]
+	Ordinal0 [0x0071636B+1139563]
+	Ordinal0 [0x007164D3+1139923]
+	Ordinal0 [0x00715455+1135701]
+	BaseThreadInitThunk [0x76576359+25]
+	RtlGetAppContainerNamedObjectPath [0x76F17B74+228]
+	RtlGetAppContainerNamedObjectPath [0x76F17B44+180]
+" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SWAPNIL&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0077A923+1550627]
+	Ordinal0 [0x006FA731+1025841]
+	Ordinal0 [0x0067C715+509717]
+	Ordinal0 [0x0060FC68+64616]
+	Ordinal0 [0x0060C594+50580]
+	Ordinal0 [0x0062ACE7+175335]
+	Ordinal0 [0x0062A8ED+174317]
+	Ordinal0 [0x00628CDB+167131]
+	Ordinal0 [0x0061144A+70730]
+	Ordinal0 [0x006124D0+74960]
+	Ordinal0 [0x00612469+74857]
+	Ordinal0 [0x007142F7+1131255]
+	GetHandleVerifier [0x0081711D+523789]
+	GetHandleVerifier [0x00816EB0+523168]
+	GetHandleVerifier [0x0081E207+552695]
+	GetHandleVerifier [0x0081791A+525834]
+	Ordinal0 [0x0070B82C+1095724]
+	Ordinal0 [0x0071636B+1139563]
+	Ordinal0 [0x007164D3+1139923]
+	Ordinal0 [0x00715455+1135701]
+	BaseThreadInitThunk [0x76576359+25]
+	RtlGetAppContainerNamedObjectPath [0x76F17B74+228]
+	RtlGetAppContainerNamedObjectPath [0x76F17B44+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.crm.qa.base.TestBase.initialization(TestBase.java:57)
+	at com.crm.qa.testcases.TasksPageTest.setUp(TasksPageTest.java:26)
+</failure>
+    <system-err>Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 33778
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="verifyTaskLabelTest" time="21.68">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="setUp" time="21.681">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="selectSignleContactNameTest" time="21.681">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="setUp" time="21.681">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="userNameLabelTest" time="21.681">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="setUp" time="21.681">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="crmLogoImageTest" time="21.682">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="setUp" time="24.136">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="VerifycreateNewTaskByBtn" time="24.136">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="setUp" time="24.137">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="VerifycreateNewTaskByBtn" time="24.137">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="setUp" time="24.138">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="VerifycreateNewTaskByBtn" time="24.139">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="setUp" time="24.14">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="VerifycreateNewTaskByBtn" time="24.14">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="setUp" time="24.141">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="VerifycreateNewTaskByBtn" time="24.141">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="setUp" time="24.143">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="VerifycreateNewTaskByBtn" time="24.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="setUp" time="24.146">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="VerifycreateNewTaskByBtn" time="24.147">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="setUp" time="24.148">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="selectMultipleContactNameTest" time="24.148">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="setUp" time="24.149">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyContactLinkClickTest" time="24.149">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="setUp" time="24.15">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyclickOnTaskLinkTest" time="24.15">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="setUp" time="24.151">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginTest" time="24.151">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="setUp" time="24.153">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="verifyClickOnTask" time="24.153">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="setUp" time="24.272">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="validateCreateNewContactTest" time="24.272">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="setUp" time="24.272">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="validateCreateNewContactTest" time="24.274">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="setUp" time="24.275">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="validateCreateNewContactTest" time="24.276">
+    <skipped/>
+  </testcase>
+</testsuite>

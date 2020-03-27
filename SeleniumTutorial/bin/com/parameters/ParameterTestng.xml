@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Yahoo APp Test Automation Suite">
+  <test thread-count="5" name="Yaho App Test">
+  
+  
+    <parameter name="env" value="QA"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="url" value="https://login.yahoo.com/"></parameter>
+    <parameter name="emailId" value="swapnil.bodade@ymail.com"></parameter>
+    
+    
+   
+    <classes>
+      <class name="com.parameters.ParameterTest"/>
+    </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
