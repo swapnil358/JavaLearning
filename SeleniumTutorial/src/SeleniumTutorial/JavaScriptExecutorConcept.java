@@ -111,6 +111,7 @@ public class JavaScriptExecutorConcept {
 		String title = js.executeScript("return document.title;").toString();
 		return title;
 	}
+	
 
 	public static String getPageInnerTextByJS(WebDriver driver) {
 		JavascriptExecutor js = ((JavascriptExecutor) driver);

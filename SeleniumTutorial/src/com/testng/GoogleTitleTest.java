@@ -1,7 +1,5 @@
 package com.testng;
 
-import static org.testng.Assert.assertTrue;
-
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -12,19 +10,15 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class GoogleTitleTest {
 
 	WebDriver driver = null; // initalisng webdriver instance, so that i can use it throughout my class
 
 	@BeforeMethod
 	public void setUp() {
-		
-		  System.setProperty("webdriver.chrome.driver",
-		  "C:\\Users\\n\\Desktop\\chromedriver_win32\\chromedriver.exe");
-		  
-		 
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\n\\Desktop\\chromedriver_win32\\chromedriver.exe");
+
 		// WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		// driver.manage().window().maximize();

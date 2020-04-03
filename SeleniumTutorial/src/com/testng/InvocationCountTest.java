@@ -14,5 +14,11 @@ public class InvocationCountTest {
 
 		System.out.println("sum is ----" + c);
 	}
+	
+	@Test
+	public void sum1() {
+		System.out.println("sum1");
+	}
+		
 
 }
