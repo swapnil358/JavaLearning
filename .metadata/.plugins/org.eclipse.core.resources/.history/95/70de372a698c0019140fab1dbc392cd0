@@ -1,0 +1,44 @@
+package SeleniumTutorial;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class MultipleTabsHandle {
+
+	public static void main(String[] args) {
+			
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\n\\Desktop\\Swapnil\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		 
+		driver.manage().window().maximize(); 
+		driver.get("https://www.google.com");
+		 
+		String newWindow = driver.getWindowHandle();
+		 
+		driver.findElement(By.cssSelector(“body”)).sendKeys(Keys.CONTROL+ 't');
+		driver.get("https://www.fb.com");
+		 
+		 
+		//Perform whatever actions you want done on the secondary tab, let’s pretend we’re logging in somewhere
+		 	
+		driver.findElement(By.id("email")).sendKeys("9503060718");
+		driver.findElement(By.id("pass")).sendKeys("Qwerty@123");
+		driver.findElement(By.id("u_0_2")).click();
+		
+		 
+		driver.switchTo().window(mainWindow);
+		 
+		//Perform whatever actions you want done on the main tab, we’ll click a button
+		driver.findElementById(“button”).click();
+		 
+		# Close current tab
+		driver.findElement(By.cssSelector(“body”)).sendKeys(Keys.CONTROL + 'w');
+		 
+		driver.close();
+		
+		
+		
+	}
+
+}

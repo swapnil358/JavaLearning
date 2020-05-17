@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\n\eclipse-workspace\WebDriverPracticeByNaveen\SeleniumTutorial"/>
+			<item value="C:\Users\n\eclipse-workspace\WebDriverPracticeByNaveen"/>
+			<item value="C:\Users\n\eclipse-workspace"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="Automation.Automation"/>
+			<item value="DataProvider.DataProvider"/>
+			<item value="Com.DataDriven.test.Com.DataDriven.test"/>
+			<item value="OOPConceptInPOM.OOPConceptInPOM"/>
+			<item value="FreeCrmBDDFramework.FreeCrmBDDFramework"/>
+			<item value="PageObjectModelWithJavaGenerics"/>
+			<item value="PageObjectModelWithJavaGenerics.PageObjectModelWithJavaGenerics"/>
+		</list>
+		<list key="groupId">
+			<item value="Automation"/>
+			<item value="DataProvider"/>
+			<item value="Com.DataDriven.test"/>
+			<item value="OOPConceptInPOM"/>
+			<item value="FreeCrmBDDFramework"/>
+			<item value="PageObjectModelWithJavaGenerics"/>
+		</list>
+		<list key="artifactId">
+			<item value="Automation"/>
+			<item value="DataProvider"/>
+			<item value="Com.DataDriven.test"/>
+			<item value="OOPConceptInPOM"/>
+			<item value="FreeCrmBDDFramework"/>
+			<item value="PageObjectModelWithJavaGenerics"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

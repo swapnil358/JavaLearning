@@ -1,0 +1,33 @@
+package StringImmutableConcept;
+
+public class StringVsStringBuffer {
+
+	public static void main(String[] args) {
+
+		String s = new String("durga");
+		s.concat("software");
+
+		String s1 = new String("durga");
+
+		System.out.println(s);
+
+		System.out.println(s == s1); // O/P: false , '==' is reference comparison---but s and s1 both reference
+										// variable pointing to two different string object
+
+		System.out.println(s.equals(s1)); // true, equals() methos used to ---compare content comparison----, since S and S1
+											// contents are similar hence it is True
+		
+		
+		StringBuffer sb = new StringBuffer("durga");
+		
+		
+		
+		System.out.println("Using StringBuffer: "+sb.append("software"));
+		
+		
+		System.out.println(sb==sb1);
+		
+
+	}
+
+}

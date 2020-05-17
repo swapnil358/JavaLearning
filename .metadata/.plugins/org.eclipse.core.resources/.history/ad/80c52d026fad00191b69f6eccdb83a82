@@ -1,0 +1,20 @@
+package com.qa.hubspot.pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Page {
+	
+	//Two reference created
+	public WebDriver driver;
+	public WebDriverWait wait;			//for explicitlty wait
+	
+	
+	public Page(WebDriver driver, WebDriver wait) {
+		this.driver = driver;
+		this.wait = wait;
+	}
+	
+	
+
+}

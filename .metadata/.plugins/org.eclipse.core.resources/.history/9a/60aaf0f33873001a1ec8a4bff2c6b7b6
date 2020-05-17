@@ -1,0 +1,27 @@
+package SeleniumCases;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ReadExcel {
+	
+	public static void main(String[] args) throws IOException {
+		
+		FileInputStream fs = new FileInputStream("C:\\Users\\n\\Desktop\\SeleniumInterviewStuffs");
+		
+		XSSFWorkbook sheet = new XSSFWorkbook(fs);
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+
+}

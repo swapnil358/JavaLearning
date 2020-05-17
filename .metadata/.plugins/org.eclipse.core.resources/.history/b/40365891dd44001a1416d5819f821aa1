@@ -1,0 +1,30 @@
+package OOPSConceptPart4;
+
+//refer video- https://youtu.be/aqDiBybBRqM?list=PLFGoYjJG_fqqyIj2ht0aHMx_HnGX3ZFEx
+
+/*	final  -- keyword
+	finally -- block
+	finalize - method
+*/
+
+public class FinalConcept {
+
+	public static void main(String[] args) {
+
+		final int i = 10;
+		
+		/*
+		 * Final keyword is used to define the constant values (Value can not change)
+		 * Value can be assigned only once and after assignment, value of a constant
+		 * can't be changed.
+		 */
+		
+		System.out.println(i);
+
+	     i = i+1; //giving an error
+	
+	}
+
+	
+	
+}

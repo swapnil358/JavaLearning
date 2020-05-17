@@ -1,0 +1,15 @@
+package StringImmutableConcept;
+
+public class StringConcept {
+
+	public static void main(String[] args) {
+
+		String s1 = "Java";				//1) String Pool
+		String s2 = "Java";
+		
+		System.out.println(s1);
+		System.out.println(s2);
+		
+	}
+
+}

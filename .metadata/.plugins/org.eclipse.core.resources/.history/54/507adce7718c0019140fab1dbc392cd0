@@ -1,0 +1,51 @@
+package SeleniumTutorial;
+
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class MultipleTabsHandle {
+
+	public static void main(String[] args) throws AWTException {
+			
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\n\\Desktop\\Swapnil\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+        driver.get("http://google.com");
+        String Parent = driver.getWindowHandle();
+       System.out.println("Parent"+Parent);
+       
+       Robot r = new Robot();
+       r.keyPress(KeyEvent.VK_CONTROL);
+       r.keyPress(KeyEvent.VK_T);
+       
+       System.out.println("Open new tab");
+       
+       //String selectLinkOpeninNewTab = Keys.chord(Keys.CONTROL,"t");
+       
+       //driver.findElement(By.tagName("body")).sendKeys(selectLinkOpeninNewTab);
+
+       //driver.get("www.facebook.com");
+       
+       
+      // driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL +"t");
+       
+      // String selectLinkOpeninNewTab = Keys.chord(Keys.CONTROL,"t");
+      // driver.findElement(By.linkText("www.facebook.com")).sendKeys(selectLinkOpeninNewTab);
+       
+       //driver.findElement(By.cssSelector("body")).sendKeys(selectLinkOpeninNewTab);
+       
+       
+      // String selectLinkOpeninNewTab = Keys.chord(Keys.CONTROL,"t");
+       //driver.findElement(By.linkText("urlLink")).sendKeys(selectLinkOpeninNewTab);
+     //  driver.findElement(By.linkText("google")).sendKeys(selectLinkOpeninNewTab);	
+     //  driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL + "t");
+    //   System.out.println("ss");
+		
+		
+	}
+
+}

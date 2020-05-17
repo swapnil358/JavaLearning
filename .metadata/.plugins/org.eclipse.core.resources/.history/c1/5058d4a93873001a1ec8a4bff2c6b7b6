@@ -1,0 +1,20 @@
+package SeleniumCases;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class ReadExcel {
+	
+	public static void main(String[] args) throws FileNotFoundException {
+		
+		FileInputStream fs = new FileInputStream("C:\\Users\\n\\Desktop\\SeleniumInterviewStuffs");
+		
+		
+		
+		
+		
+	}
+	
+	
+
+}

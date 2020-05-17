@@ -1,0 +1,37 @@
+package AbstractionConcept;
+
+public interface Car {
+
+	// Only Final and static variable define in abstract
+
+	int i = 10; // By default, interface fields are public, static and final
+
+	void abstractMethod(); // Interface can have abstract method
+
+	int wheels = 4;
+
+	// We always define Abstract method without Abstract keyword
+	// Abstract method -- only method declaration,
+	// No method body
+	// We achieve 100% abstraction
+	// Can not create the object of interface
+	// In interface we can define ---Static(static int loanrate= 5;), Non static(int
+	// amt = 100;), final(final int rate = 10;)
+
+	// No constructors in an interface
+
+	// No non-static and non-final variables in an interface
+
+	// No private fields and methods in an interface
+
+	// No protected fields and methods in an interface
+
+	// No final methods in an interface
+
+	public void start();
+
+	public void stop();
+
+	public void refuel();
+
+}

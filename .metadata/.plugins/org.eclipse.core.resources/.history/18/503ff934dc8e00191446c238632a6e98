@@ -1,0 +1,22 @@
+package SeleniumTutorial;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DynamicWebTableHandle {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\n\\Desktop\\Swapnil\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://classic.crmpro.com");
+		driver.manage().deleteAllCookies();
+		driver.findElement(By.name("username")).sendKeys("naveenautomation");
+		driver.findElement(By.name("password")).sendKeys("test@123");
+
+		
+	}
+
+}

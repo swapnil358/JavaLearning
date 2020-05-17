@@ -1,0 +1,11 @@
+package SeleniumTutorial;
+
+public class MultipleTabsHandle extends ReadPropFile {
+
+	public static void main(String[] args) {
+			
+		driver.get(URL);
+		
+	}
+
+}

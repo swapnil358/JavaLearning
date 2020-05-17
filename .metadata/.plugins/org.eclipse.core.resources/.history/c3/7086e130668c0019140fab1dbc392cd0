@@ -1,0 +1,10 @@
+package SeleniumTutorial;
+
+public class MultipleTabsHandle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
