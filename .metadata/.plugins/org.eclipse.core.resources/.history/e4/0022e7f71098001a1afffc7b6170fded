@@ -1,0 +1,16 @@
+package TestPackage;
+
+public class stackImp {
+
+	int size;
+	int top;
+	int arr[];
+
+	public stackImp(int size) {
+		this.size = size;
+		this.arr = new int[size];
+		this.top = -1;
+
+	}
+
+}

@@ -1,0 +1,87 @@
+package DataStructure;
+
+//Time complexity of all this method is :  0(1), because have performed one sigle operation for all methods, there is not for loop
+
+public class StackImp {
+
+	// 1. Initialising three variable, Size--Size of stack, arr[]--array of stack,
+	// top -- array present on top position
+
+	int size;
+	int arr[];
+	int top;
+
+	// initialise the constructor with size
+
+	public StackImp(int size) {
+
+		this.size = size;
+		this.arr = new int[size]; // intitialising arr with whatever sixe we are giving
+		this.top = -1;
+
+	}
+
+	public void push(int element) {
+		if (!isFull()) {
+			top++;
+			arr[top] = element;
+			System.out.println("Pushed element: " + element);
+		} else {
+			System.out.println("Stack is full now");
+		}
+
+	}
+
+	public int pop() {
+		if (!isEmpty()) {
+			int returnedTop = top;
+			top--;
+			System.out.println("Popped element is:" + arr[returnedTop]);
+			return arr[returnedTop];
+		} else {
+			System.out.println("Stack is empty");
+			return -1;
+		}
+
+	}
+
+	public int peek() {
+		if (!this.isEmpty()) {
+			return arr[top];
+
+		} else {
+			System.out.println("Stack is empty");
+			return -1;
+		}
+	}
+
+	public boolean isEmpty() {
+		return (top == -1);
+	}
+
+	public boolean isFull() {
+		return (size - 1 == top);
+	}
+
+	public static void main(String[] args) {
+
+		StackImp stackImp = new StackImp(10);
+		stackImp.pop();
+
+		System.out.println("--- -- ------------");
+
+		stackImp.push(100);
+		stackImp.push(200);
+		stackImp.push(300);
+		stackImp.push(400);
+
+		System.out.println("--- -- ------------");
+		System.out.println(stackImp.peek());
+
+		stackImp.pop();
+		stackImp.pop();
+		stackImp.pop();
+
+	}
+
+}

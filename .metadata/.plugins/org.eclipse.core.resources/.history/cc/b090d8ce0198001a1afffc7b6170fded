@@ -1,0 +1,40 @@
+package DataStructure;
+
+public class StackImp {
+	
+	//1. Initialising three variable, Size--Size of stack, arr[]--array of stack, top -- array present on top position
+
+	int size;
+	int arr[];
+	int top;
+	
+	//initialise the constructor with size 
+	
+	public StackImp(int size) {
+		
+		this.size = size;
+		this.arr = new int[size];			//intitialising arr with whatever sixe we are giving
+		this.top = -1;						
+		
+	}
+
+	public void peek() {
+		if(this.isEmpty()) {
+			
+		}
+	}
+	
+	
+	
+	
+	public boolean isEmpty() {
+		return (top ==-1);
+	}
+	
+	
+	public boolean isFull() {
+		return (size-1 == top);
+	}
+	
+
+}

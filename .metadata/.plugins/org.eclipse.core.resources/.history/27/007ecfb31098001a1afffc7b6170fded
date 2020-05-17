@@ -1,0 +1,14 @@
+package TestPackage;
+
+public class stackImp {
+	
+	int size;
+	int top;
+	int arr[];
+	
+	
+	public stackImp(int size) {
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package DataStructure;
+
+public class StackImp {
+	
+	//1. Initialising three variable, Size--Size of stack, arr[]--array of stack, top -- array present on top position
+
+	int size;
+	int arr[];
+	int top;
+	
+	
+	public StackImp(int size) {
+		
+	}
+	
+	
+	
+
+}

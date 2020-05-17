@@ -6531,3 +6531,7 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact info.cukes:cu
 2020-05-17 09:51:30,286 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\n\eclipse-workspace\WebDriverPracticeByNaveen\PageObjectModelWithJavaGenerics\src\main\resources
 2020-05-17 09:51:30,298 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-05-17 09:51:30,299 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\n\eclipse-workspace\WebDriverPracticeByNaveen\PageObjectModelWithJavaGenerics\src\test\resources
+2020-05-17 10:42:09,900 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-17 10:42:09,905 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\n\eclipse-workspace\WebDriverPracticeByNaveen\CucumberUdemyFramework\src\main\resources
+2020-05-17 10:42:09,907 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-17 10:42:09,908 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\n\eclipse-workspace\WebDriverPracticeByNaveen\CucumberUdemyFramework\src\test\resources

@@ -1,0 +1,10 @@
+package DataStructure;
+
+public class StackImplementation {
+
+	int size;
+	int arr[];
+	int top;
+	
+
+}

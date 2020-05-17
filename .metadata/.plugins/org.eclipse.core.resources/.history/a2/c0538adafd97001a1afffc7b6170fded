@@ -1,0 +1,17 @@
+package DataStructure;
+
+public class StackImp {
+
+	int size;
+	int arr[];
+	int top;
+	
+	
+	public StackImp(int size) {
+		
+	}
+	
+	
+	
+
+}
