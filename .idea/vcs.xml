@@ -3,5 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/FreeCrmBDDFramework" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/RestAssuredFramework" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mobile-automation-appium-framework" vcs="Git" />
   </component>
 </project>
